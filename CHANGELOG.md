@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## [5.0.2] - 2026-09-26
+### ✨ Nuevo
+- **Buscar actualizaciones cuando quieras:** Haz clic en el número de versión (arriba, junto al nombre) para comprobar al instante si hay una versión nueva.
+- **Aviso de nuevas versiones sin reiniciar:** Si dejas la aplicación abierta, cada pocas horas comprueba si hay una versión nueva y te avisa con un botón para actualizar.
+- **Novedades tras actualizar:** La primera vez que abres una versión nueva, la aplicación te lo indica y te ofrece ver qué ha cambiado.
+- **Notificaciones de Windows:** Si la aplicación está minimizada o en segundo plano, te avisa cuando termina una descarga o toda la cola.
+
+### 🛠️ Instalador
+- **Actualiza instalaciones antiguas limpiamente:** Al instalar sobre una versión anterior se eliminan las entradas y accesos directos rotos del instalador antiguo.
+
 ## [5.0.1] - 2026-09-26
 ### 🚀 Nuevo sistema de actualizaciones
 - **Actualizaciones desde GitHub:** Las nuevas versiones se descargan desde GitHub Releases, más rápido y fiable que el sistema anterior.
