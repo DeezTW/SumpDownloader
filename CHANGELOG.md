@@ -1,5 +1,22 @@
 # Historial de cambios
 
+## [5.1.0] - 2026-09-27
+### ✨ Ahora se llama SUMP
+- **Nueva identidad:** Nuevo nombre, logotipo e icono, y una interfaz renovada con la paleta azul de SUMP en la ventana principal, el reproductor, la pantalla de inicio, la ventana de actualización y el instalador.
+- **Barra de estado:** La carpeta de descargas y el estado de tu cuenta de X aparecen como accesos rápidos bajo la cabecera; haz clic en ellos para cambiarlos.
+- **Tus accesos directos se actualizan solos** al nuevo nombre, y tus descargas y ajustes se conservan.
+
+### 🔐 Cuenta de X más segura
+- **Inicio de sesión en tu propio navegador:** Ya no se abre una ventana de X dentro de la aplicación. SUMP abre x.com en tu navegador, inicias sesión allí y pulsas **Conectar**.
+- **Sin contraseñas guardadas:** SUMP solo copia las cookies de x.com de ese navegador; nunca ve tu contraseña. Las credenciales que guardaban versiones anteriores se eliminan automáticamente.
+- **Sin avisos del Firewall:** Se evita el aviso de "Firewall de Windows Defender bloqueó algunas características".
+
+### 🎥 Reproductor
+- **Vídeos verticales corregidos:** Los vídeos verticales se ven completos y centrados, en lugar de aparecer ampliados y recortados.
+
+### 🛠️ Otros
+- **Funciona sin conexión:** La tipografía y las animaciones van incluidas en la aplicación.
+
 ## [5.0.3] - 2026-09-27
 ### 🛠️ Instalador
 - **Corregida la actualización de instalaciones anteriores:** El instalador no reemplazaba el núcleo de la aplicación al instalar sobre una versión antigua, por lo que seguía abriéndose la versión anterior. Ahora se sustituye por completo.
