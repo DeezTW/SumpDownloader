@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## [5.0.3] - 2026-09-27
+### 🛠️ Instalador
+- **Corregida la actualización de instalaciones anteriores:** El instalador no reemplazaba el núcleo de la aplicación al instalar sobre una versión antigua, por lo que seguía abriéndose la versión anterior. Ahora se sustituye por completo.
+- **Comprobación final:** Al terminar, el instalador verifica que la versión instalada es la correcta y, si algo falla, te lo indica en lugar de dar la instalación por buena.
+- **Instalaciones a medio desinstalar:** Si quedaron restos de una desinstalación anterior, el instalador los limpia antes de instalar.
+
 ## [5.0.2] - 2026-09-26
 ### ✨ Nuevo
 - **Buscar actualizaciones cuando quieras:** Haz clic en el número de versión (arriba, junto al nombre) para comprobar al instante si hay una versión nueva.
