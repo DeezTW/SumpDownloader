@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## [5.2.1] - 2026-09-28
+### 🎨 Progreso de descarga rediseñado
+- **Se ve bien de nuevo:** La tarjeta de descarga mostraba el nombre cortado, el porcentaje pegado al texto y la barra de progreso no aparecía. Ahora el nombre ocupa todo el ancho y la barra se ve siempre.
+- **Estados claros:** Mientras SUMP busca el vídeo verás una barra animada; al descargar, el porcentaje real; al terminar, la tarjeta se pone en verde, y si algo falla, en rojo con el motivo del error.
+- **Cola de descargas:** El contador (por ejemplo «2 de 5») aparece junto al estado.
+
 ## [5.2.0] - 2026-09-28
 ### 🔐 Inicio de sesión en X, arreglado
 - **Funciona con Edge, Chrome, Brave y Vivaldi:** Estos navegadores ahora cifran sus cookies y no dejaban conectar la cuenta. Ahora pulsas **Iniciar sesión en X**, se abre una ventana de tu navegador, inicias sesión y SUMP la cierra sola en cuanto detecta tu sesión. No hace falta cerrar el navegador.
