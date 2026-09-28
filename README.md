@@ -31,11 +31,22 @@ Todas las versiones y sus novedades están en la sección
 > **Más información → Ejecutar de todas formas**. Aparece porque el instalador no tiene
 > una firma digital de pago.
 
+## Tu biblioteca
+
+- **Carpetas:** las subcarpetas de tu carpeta de descargas aparecen como carpetas en SUMP. Puedes
+  crear nuevas, mover vídeos arrastrándolos o con clic derecho, y borrar carpetas (si tienen contenido,
+  SUMP te deja sacarlo a la carpeta principal o enviarlo a la papelera).
+- **Favoritos:** pulsa la estrella de un vídeo para tenerlo a mano en la vista *Favoritos*.
+- **Buscador:** busca por nombre del vídeo o del creador (también con `Ctrl + F`).
+- **Marca de agua opcional:** en *Ajustes* puedes desactivar el texto «Plataforma: @creador» para que
+  las descargas terminen mucho más rápido.
+
 ## Cuenta de X (opcional)
 
-Para descargar contenido marcado como sensible, conecta tu cuenta de X desde el botón de cuenta:
-SUMP abre x.com **en tu propio navegador**, inicias sesión allí y después pulsas **Conectar**.
-SUMP solo copia las cookies de x.com de ese navegador; nunca ve ni guarda tu contraseña.
+Para descargar contenido marcado como sensible, abre *Cuenta de X*, elige tu navegador y pulsa
+**Iniciar sesión en X**: se abre una ventana de tu propio navegador (Edge, Chrome, Brave o Vivaldi)
+donde inicias sesión, y SUMP la cierra sola en cuanto detecta tu sesión. Con Firefox, inicias sesión
+en Firefox y pulsas **Conectar**. SUMP nunca ve ni guarda tu contraseña.
 
 ## Actualizaciones
 

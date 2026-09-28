@@ -1,5 +1,27 @@
 # Historial de cambios
 
+## [5.2.0] - 2026-09-28
+### 🔐 Inicio de sesión en X, arreglado
+- **Funciona con Edge, Chrome, Brave y Vivaldi:** Estos navegadores ahora cifran sus cookies y no dejaban conectar la cuenta. Ahora pulsas **Iniciar sesión en X**, se abre una ventana de tu navegador, inicias sesión y SUMP la cierra sola en cuanto detecta tu sesión. No hace falta cerrar el navegador.
+- **Tu contraseña sigue siendo tuya:** El inicio de sesión ocurre en tu navegador; SUMP nunca la ve ni la guarda.
+- **Descargas de contenido sensible más fiables:** Cuando hace falta usar yt-dlp, SUMP usa la sesión que conectaste en lugar de intentar leer las cookies de cada navegador.
+
+### 📁 Carpetas y favoritos
+- **Carpetas:** Las subcarpetas de tu carpeta de descargas aparecen como carpetas. Crea nuevas con **+ Nueva carpeta** y mueve vídeos arrastrándolos sobre una carpeta, con clic derecho → **Mover a** o seleccionando varios.
+- **Borrado seguro de carpetas:** Una carpeta con contenido no se borra directamente: SUMP te deja sacar su contenido a la carpeta principal o enviarlo a la papelera.
+- **Favoritos:** Pulsa la estrella de cualquier vídeo y encuéntralo en la vista **★ Favoritos**.
+- **Selección múltiple:** Marca varios vídeos para moverlos, añadirlos a favoritos o eliminarlos a la vez (van a la Papelera de reciclaje).
+
+### 🔎 Buscador
+- **Busca por vídeo o creador** desde la barra de la biblioteca (también con **Ctrl + F**). No distingue mayúsculas ni tildes.
+
+### ⚡ Marca de agua opcional
+- **Nuevo panel de Ajustes** (botón del engranaje): desactiva la marca «Plataforma: @creador» y las descargas terminarán mucho más rápido, porque el vídeo ya no se vuelve a codificar.
+
+### 🛠️ Otros
+- El reproductor recorre los vídeos de la vista actual (carpeta, favoritos o resultados de búsqueda).
+- Las miniaturas que fallan por archivos dañados ya no se reintentan cada vez que se actualiza la biblioteca.
+
 ## [5.1.0] - 2026-09-27
 ### ✨ Ahora se llama SUMP
 - **Nueva identidad:** Nuevo nombre, logotipo e icono, y una interfaz renovada con la paleta azul de SUMP en la ventana principal, el reproductor, la pantalla de inicio, la ventana de actualización y el instalador.
