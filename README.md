@@ -4,7 +4,7 @@
 
 # SUMP
 
-Aplicación para Windows que descarga vídeos e imágenes de X (Twitter) y otros sitios compatibles,
+Aplicación para Windows que descarga vídeos e imágenes de X (Twitter), YouTube, Instagram, Facebook, TikTok y Reddit,
 con reproductor integrado y biblioteca de descargas.
 
 ## ⬇️ Descargar

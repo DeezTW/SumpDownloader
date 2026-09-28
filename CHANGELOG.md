@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## [5.3.0] - 2026-09-28
+### 🌐 Más plataformas
+- **YouTube, Instagram, Facebook, TikTok y Reddit:** Ahora puedes pegar enlaces de estas redes además de X. Funcionan vídeos normales, Shorts, Reels y enlaces cortos como `youtu.be`, `fb.watch` o `vm.tiktok.com`.
+- **Cola con iconos por red:** Cada enlace de la cola muestra el icono de su plataforma.
+- **Portapapeles más inteligente:** Al copiar un enlace de vídeo de cualquiera de estas redes, SUMP te ofrece descargarlo. Copiar un perfil o una página de inicio ya no lo activa.
+
+### 🛠️ Correcciones
+- **Vídeos que no se abrían en el reproductor:** Los vídeos cuyo nombre lleva `#` (muy común en TikTok) ahora se reproducen dentro de la app.
+- **Nombres con acentos y emojis:** Los títulos ya no se guardan con caracteres rotos como `I�ll`; se conservan acentos, apóstrofes y emojis.
+
 ## [5.2.2] - 2026-09-28
 ### ⚡ Interfaz mucho más fluida
 - **Biblioteca hasta 5 veces más rápida al abrir:** Los vídeos se cargan por páginas mientras te desplazas, en lugar de pintar cientos de tarjetas de golpe.
@@ -82,8 +92,7 @@
 - **Descargas más seguras:** Una descarga interrumpida de `yt-dlp` o FFmpeg ya no deja archivos dañados.
 
 ## [5.0.0]
-### ✨ Agregado - Compatibilidad con xHamster y Auto-Update
-- **Soporte xHamster:** Ahora puedes descargar vídeos de xHamster directamente con soporte completo de metadatos e iconos personalizados en la interfaz.
+### ✨ Agregado - Auto-Update
 - **Auto-Actualización de yt-dlp:** La aplicación ahora verifica y actualiza automáticamente el motor de descarga `yt-dlp` al inicio, asegurando compatibilidad constante con todos los sitios sin intervención del usuario.
 - **User-Agent de Navegador:** Implementado un sistema de evasión de bloqueos mediante User-Agent de Chrome 121, permitiendo descargas en sitios con restricciones estrictas para bots.
 
@@ -96,4 +105,4 @@
 ### 🛠️ Soluciones Técnicas e Instalador
 - **Web Installer v5.0 (Omni-Compatible):** El instalador ligero (<1MB) soporta caracteres especiales (Unicode) y tiene metadatos de seguridad mejorados para reducir advertencias de Windows SmartScreen y Smart App Control.
 - **Corrección de Error de Extracción:** Se han reparado los errores de "Falta parámetro Path" en el instalador mediante un nuevo sistema de escapado de rutas para PowerShell, permitiendo instalaciones en carpetas con espacios.
-- **Persistencia de Referer:** Corregido un error que causaba cierres (Error 1) en descargas de sitios para adultos al no enviar la cabecera de origen correcta.
+- **Persistencia de Referer:** Corregido un error que causaba cierres (Error 1) en descargas de algunos sitios al no enviar la cabecera de origen correcta.
