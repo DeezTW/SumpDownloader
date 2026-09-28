@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## [5.2.2] - 2026-09-28
+### ⚡ Interfaz mucho más fluida
+- **Biblioteca hasta 5 veces más rápida al abrir:** Los vídeos se cargan por páginas mientras te desplazas, en lugar de pintar cientos de tarjetas de golpe.
+- **Desplazamiento fluido:** Se eliminaron los efectos de desenfoque de cada tarjeta y el fondo que se repintaba al desplazarte. En una biblioteca de 800 vídeos el desplazamiento pasó de 15 a más de 60 fotogramas por segundo.
+- **Favoritos al instante:** Marcar o quitar un favorito actualiza solo esa tarjeta, sin recargar la biblioteca.
+- **Miniaturas sin tirones:** Las miniaturas nuevas aparecen una a una en su tarjeta, en lugar de recargar toda la galería cada pocos segundos.
+- **Lectura de la carpeta en segundo plano:** Leer una biblioteca grande ya no bloquea la aplicación.
+
 ## [5.2.1] - 2026-09-28
 ### 🎨 Progreso de descarga rediseñado
 - **Se ve bien de nuevo:** La tarjeta de descarga mostraba el nombre cortado, el porcentaje pegado al texto y la barra de progreso no aparecía. Ahora el nombre ocupa todo el ancho y la barra se ve siempre.
