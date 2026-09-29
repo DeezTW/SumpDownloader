@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## [5.4.1] - 2026-09-29
+### 🛠️ Corrección
+- **Deshabilitar el dispositivo ahora sí bloquea la descarga:** Antes, si deshabilitabas SUMP desde tu panel web, la app igual descargaba (usando la cuota guardada en el equipo) y esa descarga no se sumaba a tu conteo. Ahora cada descarga se valida primero contra tu cuenta: si la deshabilitaste, se bloquea de inmediato y se cierra la sesión guardada en el equipo.
+
 ## [5.4.0] - 2026-09-29
 ### 🔑 Cuenta obligatoria para descargar
 - **Inicia sesión para descargar:** SUMP ahora requiere una cuenta conectada para descargar. Pulsa **Iniciar sesión**, se abre tu navegador en la página real de inicio de sesión (con tu contraseña o con Google) y, al terminar, tu navegador reabre SUMP solo — como en Slack o GitHub Desktop.
