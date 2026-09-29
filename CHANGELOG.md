@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## [5.4.0] - 2026-09-29
+### 🔑 Cuenta obligatoria para descargar
+- **Inicia sesión para descargar:** SUMP ahora requiere una cuenta conectada para descargar. Pulsa **Iniciar sesión**, se abre tu navegador en la página real de inicio de sesión (con tu contraseña o con Google) y, al terminar, tu navegador reabre SUMP solo — como en Slack o GitHub Desktop.
+- **SUMP nunca ve tu contraseña:** el inicio de sesión ocurre siempre en tu navegador, nunca dentro de la app.
+- **Retoma lo que ibas a descargar:** si intentabas descargar algo sin sesión, en cuanto conectas tu cuenta la descarga (o la cola) continúa sola.
+- **Tu cuota, siempre visible:** el chip de cuenta muestra cuántas descargas llevas hoy y este mes según tu plan.
+
 ## [5.3.0] - 2026-09-28
 ### 🌐 Más plataformas
 - **YouTube, Instagram, Facebook, TikTok y Reddit:** Ahora puedes pegar enlaces de estas redes además de X. Funcionan vídeos normales, Shorts, Reels y enlaces cortos como `youtu.be`, `fb.watch` o `vm.tiktok.com`.
