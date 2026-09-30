@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## [5.4.2] - 2026-09-30
+### 🔑 Pantalla de login de pantalla completa
+- **Iniciar sesión ya no es un modal sobre la app difuminada:** ahora es una pantalla dedicada de pantalla completa, con la identidad de SUMP, mientras no haya una cuenta conectada. El resto de la app no se ve hasta que inicias sesión.
+- **El modal "Cuenta de sump" queda solo para verla ya conectada:** tu plan, tu cuota de descargas y cerrar sesión — el inicio de sesión vive en la nueva pantalla completa.
+- **Si tu sesión se revoca mientras usas la app** (por ejemplo, deshabilitas el dispositivo desde tu panel), vuelve a aparecer esta misma pantalla completa para reconectar.
+
 ## [5.4.1] - 2026-09-29
 ### 🛠️ Corrección
 - **Deshabilitar el dispositivo ahora sí bloquea la descarga:** Antes, si deshabilitabas SUMP desde tu panel web, la app igual descargaba (usando la cuota guardada en el equipo) y esa descarga no se sumaba a tu conteo. Ahora cada descarga se valida primero contra tu cuenta: si la deshabilitaste, se bloquea de inmediato y se cierra la sesión guardada en el equipo.
