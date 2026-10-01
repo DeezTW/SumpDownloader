@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## [5.4.4] - 2026-10-01
+### 🎨 Rediseño completo de la interfaz
+- Se acabó el header de arriba y la fila de chips: ahora hay una **barra lateral** con tus carpetas como lista, y accesos directos a tu cuenta, X y ajustes.
+- La barra de pegar enlaces y descargar ahora es una barra flotante tipo buscador, no un formulario.
+- La Biblioteca pasó a tarjetas más grandes, con el nombre y el peso del archivo superpuestos sobre la miniatura (como una plataforma de streaming), en vez de ir en una franja aparte.
+- Los modales (Ajustes, Cuenta de sump, Cuenta de X) ahora son paneles flotantes, más grandes y sin las líneas de formulario de antes — y siguen naciendo del botón exacto que los abre, con la misma animación que ya tenía el reproductor de vídeo.
+- El reproductor de vídeo no cambió: sigue igual que antes.
+
 ## [5.4.3] - 2026-10-01
 ### 🔒 La clave deshabilitada ahora sí bloquea las descargas
 - Antes, si deshabilitabas la clave de este equipo desde tu panel, un error de servidor con una redacción distinta a la esperada podía dejar pasar la descarga igual. Ahora se reconoce **cualquier** rechazo de autenticación del servidor, no solo mensajes con ciertas palabras, así que deshabilitar la clave bloquea la app de inmediato.
