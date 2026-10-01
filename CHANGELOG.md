@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## [5.4.3] - 2026-10-01
+### 🔒 La clave deshabilitada ahora sí bloquea las descargas
+- Antes, si deshabilitabas la clave de este equipo desde tu panel, un error de servidor con una redacción distinta a la esperada podía dejar pasar la descarga igual. Ahora se reconoce **cualquier** rechazo de autenticación del servidor, no solo mensajes con ciertas palabras, así que deshabilitar la clave bloquea la app de inmediato.
+
+### 💻 Una clave por equipo, no una nueva en cada inicio de sesión
+- Cerrar sesión y volver a iniciarla ya no crea una clave API nueva cada vez. SUMP ahora identifica tu equipo con un identificador estable del propio Windows (sobrevive a cerrar sesión e incluso a reinstalar la app), y el servidor reutiliza siempre la misma clave para ese equipo en vez de ir sumando una por cada login hasta agotar tu límite de dispositivos del plan.
+- Si deshabilitas tu equipo desde el panel, al intentar iniciar sesión de nuevo verás un mensaje claro pidiéndote habilitarlo en "Claves API", en vez del confuso "alcanzaste el límite de dispositivos".
+
 ## [5.4.2] - 2026-09-30
 ### 🔑 Pantalla de login de pantalla completa
 - **Iniciar sesión ya no es un modal sobre la app difuminada:** ahora es una pantalla dedicada de pantalla completa, con la identidad de SUMP, mientras no haya una cuenta conectada. El resto de la app no se ve hasta que inicias sesión.
