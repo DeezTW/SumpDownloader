@@ -1,5 +1,36 @@
 # Historial de cambios
 
+## [6.0.0] - 2026-10-01
+SUMP 6 es un diseño completamente nuevo, hecho desde cero: no queda nada de la interfaz anterior. La idea detrás es sencilla: un *sump* es un reservorio, el lugar donde las cosas se juntan, y SUMP es el reservorio de lo que guardas de internet. Por eso ahora se ve y se usa como un archivo bien ordenado, no como un panel genérico.
+
+### 🎨 Un SUMP nuevo, de principio a fin
+- **Nueva identidad visual:** tonos tinta en lugar del azul marino, el azul de SUMP solo para lo importante y una tipografía de etiquetas condensada, como la de una caja de archivo.
+- **Nueva pantalla de acceso**, la pantalla de arranque y la ventana de actualización, todas con el mismo diseño.
+- **Las animaciones de los vídeos se mantienen:** el vídeo sigue creciendo desde su miniatura al abrirlo y vuelve a ella al cerrarlo, y los modales siguen naciendo del botón que los abre.
+
+### 🗂️ Una biblioteca que se entiende de un vistazo
+- **Barra lateral** con tus estantes (Todo, Favoritos, Sin carpeta) y tus carpetas. Puedes seguir arrastrando vídeos sobre una carpeta para moverlos.
+- **Tarjetas con título y creador por separado** (por ejemplo «Mi vídeo» y *@creador*), además del peso, el formato y cuándo lo descargaste («hoy», «ayer», «hace 3 d»).
+- **Agrupada por fecha:** Hoy, Ayer, Esta semana, Este mes y luego por meses.
+- **Ordena** por más recientes, más antiguos, nombre o peso, y **cambia el tamaño de las miniaturas** (pequeñas, medianas o grandes). SUMP recuerda tu elección.
+- El título de la biblioteca muestra dónde estás y cuántos archivos y espacio hay.
+- **Barra flotante para la selección:** al seleccionar vídeos (Ctrl + clic) aparecen abajo las acciones de favoritos, mover y eliminar.
+
+### 💧 El reservorio: tu cuota siempre a la vista
+- En la barra lateral ves en todo momento cuántas descargas llevas **hoy** y **este mes**, como un tanque que se llena. Se pone ámbar cuando te acercas al límite y rojo al alcanzarlo.
+
+### 🔗 Descargar es más cómodo
+- **La barra de enlaces queda siempre arriba**, aunque bajes por la biblioteca.
+- **Te dice al momento qué entendió:** al pegar enlaces ves cuántos son válidos y de qué sitio (X, YouTube, TikTok…), y el botón cambia a «Descargar 3» si pegaste varios.
+- **Arrastra enlaces desde tu navegador** a la ventana de SUMP para añadirlos.
+- **Nuevo atajo Ctrl + L** para ir directo a pegar un enlace. Todos los atajos están ahora en Ajustes.
+- La descarga en curso y la cola se muestran juntas, con el estado de cada enlace.
+
+### 🛠️ Arreglos
+- Quitar un enlace de la cola ya no borra otro distinto cuando delante hay descargas terminadas.
+- Soltar un enlace o un archivo sobre la ventana ya no puede sacar a SUMP de su pantalla.
+- Los avisos y la cola muestran nombres de archivo y mensajes de error como texto, sin interpretarlos.
+
 ## [5.4.4] - 2026-10-01
 ### 🎨 Rediseño completo de la interfaz
 - Se acabó el header de arriba y la fila de chips: ahora hay una **barra lateral** con tus carpetas como lista, y accesos directos a tu cuenta, X y ajustes.
