@@ -1,5 +1,43 @@
 # Historial de cambios
 
+## [6.1.0] - 2026-10-02
+SUMP 6.1 cambia por dentro cómo se descarga: ahora puedes elegir la calidad, ver lo que vas a bajar antes de hacerlo, controlar cada descarga y mandar enlaces a SUMP desde cualquier sitio, incluso con la ventana cerrada.
+
+### 🎚️ Elige qué descargar
+- **Calidad:** Máxima, 1080p, 720p, 480p o **solo audio (MP3)**, desde la barra de enlaces. SUMP recuerda tu elección, y la de los vídeos verticales se respeta igual que la de los horizontales.
+- **Vista previa antes de descargar:** al pegar un enlace ves la miniatura, el título, el creador, la duración y cuánto ocupará en la calidad elegida. Puedes quitar un enlace de la lista con un clic.
+- **Avisos de repetidos:** si ya tienes ese vídeo en tu biblioteca (aunque lo pegues con otra dirección, como twitter.com en vez de x.com), SUMP te lo dice y te deja verlo, saltarlo o descargarlo de nuevo.
+- **Aviso de cuota:** si vas a añadir más enlaces de los que te quedan hoy o este mes, SUMP te lo dice antes de empezar. Los que no quepan esperan en la cola y siguen solos cuando la cuota se renueva.
+
+### ⏯️ Control total de cada descarga
+- **Varias a la vez:** hasta 3 descargas simultáneas (lo eliges en Ajustes).
+- **Pausar, reanudar y cancelar** cada descarga, o todas juntas. Al reanudar, SUMP continúa desde donde iba cuando el sitio lo permite.
+- **Si un enlace pasa 1 minuto sin avanzar, se salta** y empieza el siguiente. Lo puedes reintentar después con un clic.
+- **Reintentar con un clic** las que fallaron, una por una o todas.
+- Cada descarga muestra su miniatura, su velocidad y el tiempo que le queda, y también se ve el progreso en la barra de tareas de Windows.
+- Lo que quede pendiente al cerrar SUMP vuelve a aparecer la próxima vez, sin empezar solo.
+
+### 🪟 SUMP en segundo plano
+- **Sigue en la bandeja al cerrar la ventana:** las descargas continúan, y desde su icono puedes pausarlas, descargar lo que tengas copiado o salir.
+- **Atajo global (Alt + Shift + D):** copia un enlace en cualquier programa, pulsa el atajo y SUMP lo descarga. Puedes cambiar la combinación o desactivarlo en Ajustes.
+- **Enlaces copiados:** con la ventana cerrada, SUMP te avisa cuando copias un enlace compatible para descargarlo con un clic. Si quieres, puede descargarlos solo, sin preguntar.
+- **Botón «Descargar con SUMP» para tu navegador:** arrástralo desde Ajustes a tu barra de marcadores y descarga el vídeo que estés viendo con un clic.
+
+### 📚 Biblioteca
+- **Historial:** un nuevo estante con cada enlace que descargaste (o que falló), de dónde venía y cuándo. Desde ahí puedes abrir la publicación original, abrir el archivo o descargarlo otra vez, aunque ya lo hayas borrado.
+- **Renombrar** con clic derecho o con **F2**, separando título y creador.
+- **Recortar** un vídeo o audio desde el reproductor (botón de tijeras o tecla **T**): marca el inicio y el final con **I** y **O**, o arrastrando los tiradores, y SUMP guarda el fragmento como un archivo nuevo, sin tocar el original.
+- **Audio en la biblioteca:** los MP3 aparecen con su portada y se reproducen en el mismo reproductor.
+- Clic derecho → **Abrir la publicación original** o **Copiar el enlace original**, para lo que descargues desde ahora.
+- Si descargas algo dos veces, la copia se llama «Título (2) - creador» y nunca se sobrescribe la anterior.
+
+### 🛠️ Arreglos
+- Las descargas en curso ya no aparecen como archivos sueltos en la biblioteca mientras se procesan.
+- Varias descargas de X a la vez ya no se pisan entre sí.
+- La marca de agua se añade más rápido.
+- Los errores de descarga se explican en español y con el motivo real (vídeo privado, eliminado, con restricción de edad, sitio saturado…).
+- La cuota del reservorio se actualiza al abrir la app, sin esperar a la primera descarga.
+
 ## [6.0.0] - 2026-10-01
 SUMP 6 es un diseño completamente nuevo, hecho desde cero: no queda nada de la interfaz anterior. La idea detrás es sencilla: un *sump* es un reservorio, el lugar donde las cosas se juntan, y SUMP es el reservorio de lo que guardas de internet. Por eso ahora se ve y se usa como un archivo bien ordenado, no como un panel genérico.
 
