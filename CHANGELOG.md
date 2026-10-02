@@ -1,5 +1,25 @@
 # Historial de cambios
 
+## [6.3.0] - 2026-10-02
+SUMP 6.3 te deja seguir viendo o escuchando mientras navegas por tu biblioteca.
+
+### 📺 Sigue viendo mientras buscas otro vídeo
+- **Si sales del reproductor mientras un vídeo se reproduce** (con la ×, con Esc, haciendo clic fuera o con el nuevo botón «Seguir viendo mientras navegas»), el vídeo se encoge hasta una **tarjeta flotante abajo a la derecha** y sigue reproduciéndose sin cortes, como en YouTube.
+- Al pasar el ratón por la tarjeta tienes anterior, reproducir/pausar, siguiente, una barra para avanzar, volver al reproductor y cerrar. Un clic en el vídeo lo vuelve a abrir en grande, en el mismo punto.
+- **Tecla I:** minimiza el reproductor y lo vuelve a abrir (la misma que en YouTube).
+- Si pausas antes de salir, el reproductor se cierra como siempre.
+
+### 🎵 La música, en una barra abajo
+- **Los MP3 siguen sonando en una barra a lo ancho de la ventana**, como en Spotify: portada, título y artista, favorito, aleatorio, anterior, reproducir/pausar, siguiente, repetir, una barra de progreso que puedes arrastrar, volumen, abrir en grande y cerrar.
+- Al terminar una canción empieza la siguiente.
+- Al abrir una canción, anterior y siguiente recorren solo canciones; al abrir un vídeo, solo vídeos.
+- La biblioteca deja sitio a la barra, así que no tapa nada.
+
+### ⌨️ Controles de Windows
+- **Las teclas multimedia del teclado** (reproducir/pausar, siguiente, anterior) y el panel multimedia de Windows controlan lo que suena en SUMP. Los archivos privados aparecen ahí como «Archivo privado», sin su nombre.
+- Mientras navegas, **Espacio** pausa o reanuda lo que suena.
+- La música sigue sonando aunque cierres la ventana a la bandeja.
+
 ## [6.2.0] - 2026-10-02
 SUMP 6.2 trae carpetas privadas de verdad, cifradas con tu contraseña, una forma rápida de ordenar todo lo que tienes suelto, y una ventana «Acerca de».
 
