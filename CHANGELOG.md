@@ -1,5 +1,24 @@
 # Historial de cambios
 
+## [6.2.0] - 2026-10-02
+SUMP 6.2 trae carpetas privadas de verdad, cifradas con tu contraseña, una forma rápida de ordenar todo lo que tienes suelto, y una ventana «Acerca de».
+
+### 🔒 Carpetas privadas
+- **Con contraseña y cifradas en tu PC (AES-256):** lo que guardes en privado se cifra; no es solo esconderlo. Desde el Explorador de Windows no se puede abrir, y en SUMP no aparece mientras esté bloqueado.
+- **Se ven y se reproducen como siempre** al desbloquearlas: miniaturas, reproductor (incluido adelantar y retroceder), imágenes y favoritos. Nada se guarda descifrado en el disco para reproducirlo.
+- **Para guardar algo en privado**, arrástralo a una carpeta privada del lateral o selecciónalo y usa «Mover a». También puedes convertir una carpeta entera con clic derecho → «Convertir en carpeta privada…». Para sacarlo, clic derecho → «Sacar de privado».
+- **Se bloquean solas** al cerrar la ventana a la bandeja, al bloquear Windows, al suspender el PC o tras 10 minutos sin usarlo. También puedes bloquearlas cuando quieras desde el lateral.
+- **Ocultarlas por completo:** en Ajustes puedes hacer que, bloqueadas, ni siquiera aparezcan en el lateral. Para abrirlas, pulsa **Ctrl + Shift + P**.
+- Al guardar algo en privado también se borran su miniatura, su enlace de origen y su rastro en el historial.
+- Puedes cambiar la contraseña cuando quieras. **Si la olvidas, no hay forma de recuperar lo que guardaste:** SUMP te avisa antes de crearlas.
+
+### ✅ Seleccionar todo
+- **«Seleccionar»** junto al número de archivos, o **Ctrl + A**, selecciona todo lo que estás viendo (una carpeta, «Sin carpeta», tus favoritos o el resultado de una búsqueda).
+- Clic derecho en **«Sin carpeta»** → «Mover todo a una carpeta…», para ordenar de una vez todo lo que tienes suelto. En cualquier carpeta, clic derecho → «Seleccionar todo su contenido».
+
+### ℹ️ Acerca de SUMP
+- Nuevo botón **ⓘ** junto a Ajustes (y al final de Ajustes) con la versión, quién desarrolla SUMP, el sitio web, la página de versiones, la licencia y las versiones de yt-dlp, FFmpeg y Electron que usa tu equipo. Desde ahí también puedes buscar actualizaciones, ver las novedades o abrir la carpeta de datos de la app.
+
 ## [6.1.0] - 2026-10-02
 SUMP 6.1 cambia por dentro cómo se descarga: ahora puedes elegir la calidad, ver lo que vas a bajar antes de hacerlo, controlar cada descarga y mandar enlaces a SUMP desde cualquier sitio, incluso con la ventana cerrada.
 
