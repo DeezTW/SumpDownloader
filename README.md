@@ -27,7 +27,7 @@ Todas las versiones y sus novedades están en la sección
    descarga automáticamente la versión más reciente. Los próximos instaladores encuentran SUMP
    en la carpeta que elegiste.
 4. En el primer arranque, SUMP descarga las herramientas que necesita (`yt-dlp` y `FFmpeg`) y te
-   guía por sus ajustes principales: carpeta de descargas, calidad, marca de agua, segundo plano y
+   guía por sus ajustes principales: tema, carpeta de descargas, calidad, marca de agua, segundo plano y
    el botón «Descargar con SUMP» para la barra de marcadores de tu navegador.
 
 > **Aviso de Windows SmartScreen:** si aparece *"Windows protegió su PC"*, pulsa
@@ -43,6 +43,10 @@ Todas las versiones y sus novedades están en la sección
 - **Buscador:** busca por nombre del vídeo o del creador (también con `Ctrl + F`).
 - **Marca de agua opcional:** en *Ajustes* puedes desactivar el texto «Plataforma: @creador» para que
   las descargas terminen mucho más rápido.
+
+## Tema claro u oscuro
+
+Cambia entre los dos con el botón del sol y la luna (abajo a la izquierda) o en *Ajustes → Apariencia*.
 
 ## Calidad y formatos
 

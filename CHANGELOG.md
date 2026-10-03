@@ -1,7 +1,12 @@
 # Historial de cambios
 
 ## [6.5.0] - 2026-10-03
-SUMP 6.5 te deja elegir la calidad real de cada vídeo y el formato de audio, y estrena instalador, desinstalador y una bienvenida guiada.
+SUMP 6.5 estrena tema claro, te deja elegir la calidad real de cada vídeo y el formato de audio, y trae instalador, desinstalador y una bienvenida guiada nuevos.
+
+### ☀️ Tema claro
+- **SUMP ahora tiene tema claro**, además del oscuro de siempre. Cambia entre los dos con el **botón del sol y la luna** (abajo a la izquierda), en **Ajustes → Apariencia** o en la bienvenida.
+- El cambio se abre en un círculo desde el botón, y la barra de título y los menús de Windows cambian con él.
+- El reproductor y el visor de imágenes siguen oscuros, para que los vídeos y las fotos se vean bien.
 
 ### 🎬 La calidad que tiene cada vídeo
 - **Las calidades se desglosan según el vídeo:** si un vídeo está en 2K, 4K, 5K u 8K, esas opciones aparecen en la lista, en vez de saltar de 1080p a «Máxima».
