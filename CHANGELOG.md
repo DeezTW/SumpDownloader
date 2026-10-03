@@ -1,5 +1,29 @@
 # Historial de cambios
 
+## [6.4.0] - 2026-10-03
+SUMP 6.4 descarga álbumes enteros de YouTube Music, con su carátula original.
+
+### 💿 Álbumes y listas de YouTube Music
+- **Pega el enlace de un álbum o de una lista** (de YouTube Music o de YouTube) y SUMP te muestra su portada, cuántas canciones tiene y cuánto duran en total, antes de descargar nada.
+- Al pulsar Descargar eliges **qué canciones** quieres (las que ya tienes vienen desmarcadas), **dónde guardarlas** (una carpeta nueva con el nombre del álbum, una de tus carpetas o sin carpeta) y **el formato** (MP3 o vídeo).
+- Cada canción se descarga por separado, así que puedes pausar, reintentar o cancelar una sin tocar las demás.
+- Si pegas una canción que forma parte de un álbum, aparece un botón **«Todo el álbum»** para llevarte el disco completo.
+- Antes, un enlace de álbum descargaba una sola canción y podía dejar SUMP trabado: eso ya no pasa.
+
+### 🎨 La carátula original en cada MP3
+- Al guardar una canción como MP3, SUMP **busca su carátula original** por el título y el artista y la incrusta en el archivo, en alta calidad.
+- También guarda el **título, el artista, el álbum, el número de pista, el año y el género**, para que tu reproductor de música las ordene bien.
+- Si no encuentra la carátula, usa la imagen del vídeo recortada en cuadrado.
+
+### 🎬 Vídeos 4K grandes
+- **Unir el vídeo y el audio de un 4K de varios GB ya no cuenta como «atascado»**: mientras el archivo avanza, la descarga sigue y la barra muestra el progreso de la unión.
+- En **Ajustes → Descargas** eliges cuánto esperar antes de saltar una descarga que no avanza: 1, 3 (la nueva opción predeterminada), 5 o 10 minutos, o nunca.
+- Si YouTube rechaza una descarga a la primera (error 403), SUMP lo reintenta una vez solo.
+
+### 🔔 Aviso de nueva versión
+- Cuando hay una versión nueva sin instalar, aparece un **botón «Nueva versión»** en la barra lateral que no se va hasta que actualizas. Un clic y se instala.
+- También lo verás en el menú de la bandeja y en «Acerca de».
+
 ## [6.3.0] - 2026-10-02
 SUMP 6.3 te deja seguir viendo o escuchando mientras navegas por tu biblioteca.
 
