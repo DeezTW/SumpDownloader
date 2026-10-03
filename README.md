@@ -56,7 +56,7 @@ Tu configuración, favoritos y descargas se conservan.
 
 ## Tus datos
 
-La configuración y las herramientas se guardan en `%APPDATA%\X Downloader V3`.
+La configuración y las herramientas se guardan en `%APPDATA%\SUMP_UserData`.
 Los vídeos se guardan en la carpeta de descargas que elijas en la aplicación.
 
 ## Desinstalar

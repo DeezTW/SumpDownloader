@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## [6.4.1] - 2026-10-03
+Una versión pequeña de arreglos.
+
+### 🧹 Arreglos
+- **Las preguntas con tres botones ya se ven enteras.** En el aviso de «enlaces que ya están en tu biblioteca», el botón «Cancelar» se salía del cuadro. Ahora caben todos y, si la ventana es muy estrecha, pasan a una segunda línea.
+- El título de ese aviso ya dice «1 de estos enlaces ya está en tu biblioteca», en singular.
+
+### 📁 Carpeta de datos con el nombre de SUMP
+- La carpeta donde SUMP guarda tus ajustes, tu sesión de X, el historial y sus herramientas ahora se llama **`SUMP_UserData`** (en `%APPDATA%`).
+- Si ya usabas SUMP, tu carpeta anterior («X Downloader V3») se renombra sola la primera vez que abres esta versión, con todo dentro: no pierdes nada ni tienes que volver a iniciar sesión.
+- Tus descargas no se mueven: siguen en la carpeta que elegiste en Ajustes.
+
 ## [6.4.0] - 2026-10-03
 SUMP 6.4 descarga álbumes enteros de YouTube Music, con su carátula original.
 
