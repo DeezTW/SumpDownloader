@@ -1,5 +1,35 @@
 # Historial de cambios
 
+## [6.5.0] - 2026-10-03
+SUMP 6.5 te deja elegir la calidad real de cada vídeo y el formato de audio, y estrena instalador, desinstalador y una bienvenida guiada.
+
+### 🎬 La calidad que tiene cada vídeo
+- **Las calidades se desglosan según el vídeo:** si un vídeo está en 2K, 4K, 5K u 8K, esas opciones aparecen en la lista, en vez de saltar de 1080p a «Máxima».
+- Cada vídeo muestra su calidad máxima («hasta 4K») y lo que pesará en la calidad elegida.
+- Las películas con bandas negras (por ejemplo 1920×800) cuentan como lo que son, 1080p, igual que en YouTube.
+
+### 🎵 Más formatos de audio
+- Además de **MP3**, puedes descargar en **M4A, Opus, OGG, FLAC y WAV**, desde el selector de calidad o en el diálogo de los álbumes.
+- Todos llevan la **carátula original** y las etiquetas de la canción (título, artista, álbum, pista, año). WAV no admite carátula, así que solo lleva las etiquetas.
+- M4A y Opus guardan el audio original de YouTube tal cual, sin volver a comprimirlo.
+
+### 🔗 Enlaces pegados sin espacio
+- Si pegas varios enlaces juntos («…v=abchttps://…»), SUMP los separa solo, uno por línea.
+
+### 👋 Bienvenida guiada
+- La primera vez que abres SUMP, un asistente te ayuda a elegir la **carpeta de descargas**, la **calidad**, la **marca de agua** y qué hacer **en segundo plano**.
+- **«Descargar con SUMP» en tu navegador con un clic:** SUMP añade el botón a la barra de marcadores de Chrome, Edge, Brave, Vivaldi u Opera por ti, sin arrastrar nada. Si el navegador está abierto, te pide cerrarlo y lo añade en cuanto lo cierras.
+- Puedes volver a abrir el asistente cuando quieras en **Ajustes**, y el botón del navegador también está ahí.
+
+### 📦 Instalador nuevo
+- **En español o en inglés:** eliges el idioma al empezar, y la licencia aparece en ese idioma.
+- **Elige dónde instalar SUMP.** El instalador lo deja registrado, así que los próximos instaladores lo encuentran aunque no esté en la carpeta de siempre. Si eliges otra carpeta, lo mueve allí sin tocar tus ajustes ni tus descargas.
+- Te avisa si la carpeta no sirve (tiene otros archivos o necesita permisos de administrador).
+
+### 🗑️ Desinstalador con el mismo diseño
+- Al desinstalar SUMP desde **Configuración → Aplicaciones** o el Panel de control, se abre un desinstalador con el diseño del instalador y en tu idioma, en vez de un cuadro de Windows.
+- Puedes elegir si borrar también tus ajustes y el historial. **Tus descargas nunca se borran.**
+
 ## [6.4.1] - 2026-10-03
 Una versión pequeña de arreglos.
 

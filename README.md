@@ -22,10 +22,13 @@ Todas las versiones y sus novedades están en la sección
 ## Instalación
 
 1. Descarga y ejecuta `SUMP-Setup.exe`. No es necesario instalarlo como administrador.
-2. Acepta la licencia y pulsa **Instalar**. El instalador descarga automáticamente la versión
-   más reciente.
-3. En el primer arranque, SUMP descarga las herramientas que necesita (`yt-dlp` y `FFmpeg`).
-   Puede tardar unos minutos según tu conexión.
+2. Elige el idioma del instalador (español o inglés) y acepta la licencia.
+3. Elige dónde instalarlo (o deja la carpeta propuesta) y pulsa **Instalar**. El instalador
+   descarga automáticamente la versión más reciente. Los próximos instaladores encuentran SUMP
+   en la carpeta que elegiste.
+4. En el primer arranque, SUMP descarga las herramientas que necesita (`yt-dlp` y `FFmpeg`) y te
+   guía por sus ajustes principales: carpeta de descargas, calidad, marca de agua, segundo plano y
+   el botón «Descargar con SUMP» para la barra de marcadores de tu navegador.
 
 > **Aviso de Windows SmartScreen:** si aparece *"Windows protegió su PC"*, pulsa
 > **Más información → Ejecutar de todas formas**. Aparece porque el instalador no tiene
@@ -40,6 +43,13 @@ Todas las versiones y sus novedades están en la sección
 - **Buscador:** busca por nombre del vídeo o del creador (también con `Ctrl + F`).
 - **Marca de agua opcional:** en *Ajustes* puedes desactivar el texto «Plataforma: @creador» para que
   las descargas terminen mucho más rápido.
+
+## Calidad y formatos
+
+- **Vídeo:** cada vídeo te muestra las calidades que tiene de verdad, de 360p a 8K (2K, 4K, 5K…).
+- **Solo audio:** MP3, M4A, Opus, OGG, FLAC o WAV, con la carátula original y las etiquetas de la
+  canción (WAV no admite carátula).
+- **Varios enlaces a la vez:** pégalos como quieras; si van pegados sin espacio, SUMP los separa solo.
 
 ## Cuenta de X (opcional)
 
@@ -61,8 +71,9 @@ Los vídeos se guardan en la carpeta de descargas que elijas en la aplicación.
 
 ## Desinstalar
 
-Desde **Configuración → Aplicaciones → SUMP → Desinstalar**, o ejecutando de nuevo el
-instalador y eligiendo **Desinstalar**.
+Desde **Configuración → Aplicaciones → SUMP → Desinstalar** (o el Panel de control), o ejecutando
+de nuevo el instalador y eligiendo **Desinstalar**. El desinstalador te pregunta antes y te deja
+elegir si borrar también tus ajustes; tus descargas nunca se borran.
 
 ## Novedades
 
