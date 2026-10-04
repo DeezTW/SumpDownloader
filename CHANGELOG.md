@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## [6.5.1] - 2026-10-04
+Un selector de calidad nuevo, más claro y más moderno.
+
+### 🎚️ Selector de calidad renovado
+- **Un menú propio en vez de la lista de Windows:** arriba ves el vídeo que has pegado (miniatura, título, plataforma y su calidad máxima), debajo las calidades de vídeo y, en una rejilla, los formatos de audio.
+- Cada opción te dice qué es: «Máxima · La mejor que haya», «4K · 2160p», «FLAC · Sin pérdida», «WAV · Sin comprimir»…
+- La opción elegida se marca en azul y el resaltado se desliza a la nueva al cambiarla.
+- Se maneja también con el teclado: flechas para moverte, Enter para elegir y Esc para cerrar.
+- El mismo selector aparece en **Ajustes**, en la **bienvenida** y en el formato de audio de los **álbumes**, y se adapta al tema claro y al oscuro.
+
 ## [6.5.0] - 2026-10-03
 SUMP 6.5 estrena tema claro, te deja elegir la calidad real de cada vídeo y el formato de audio, y trae instalador, desinstalador y una bienvenida guiada nuevos.
 
