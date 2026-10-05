@@ -4,8 +4,9 @@
 
 # SUMP
 
-Aplicación para Windows que descarga vídeos e imágenes de X (Twitter), YouTube, Instagram, Facebook, TikTok y Reddit,
-con reproductor integrado y biblioteca de descargas.
+Aplicación para Windows que descarga vídeos, música e imágenes de X (Twitter), YouTube, YouTube Music, Instagram,
+Facebook, TikTok, Reddit y Bilibili, con reproductor integrado, buscador de música, convertidor de archivos y
+biblioteca de descargas.
 
 ## ⬇️ Descargar
 
@@ -34,6 +35,23 @@ Todas las versiones y sus novedades están en la sección
 > **Más información → Ejecutar de todas formas**. Aparece porque el instalador no tiene
 > una firma digital de pago.
 
+## Vídeos y Música
+
+SUMP tiene dos espacios, para que los vídeos y la música no se mezclen. Cambia entre ellos arriba en la
+barra lateral o con `Ctrl + 1` y `Ctrl + 2`. Cada uno tiene sus estantes, su historial y su calidad de
+descarga.
+
+- **Música:** tus canciones con carátula, artista, álbum y duración, y vistas de *Álbumes*, *Artistas* y
+  *Favoritas*. Pulsa una canción para escucharla en la barra de abajo, o reproduce todo en aleatorio.
+- **Buscador de YouTube Music:** en *Música → Buscar* (o escribiendo en la barra de arriba) encuentras
+  canciones, álbumes, playlists y artistas, y los descargas sin salir de SUMP.
+
+## Convertidor
+
+En *Herramientas → Convertidor* (o con clic derecho en un archivo) conviertes vídeos a MP4, WebM, MKV, MOV,
+AVI o GIF, sacas el audio de un vídeo o cambias el formato de una canción (MP3, M4A, Opus, OGG, FLAC, WAV).
+El archivo original no se toca.
+
 ## Tu biblioteca
 
 - **Carpetas:** las subcarpetas de tu carpeta de descargas aparecen como carpetas en SUMP. Puedes
@@ -54,6 +72,8 @@ Cambia entre los dos con el botón del sol y la luna (abajo a la izquierda) o en
 - **Solo audio:** MP3, M4A, Opus, OGG, FLAC o WAV, con la carátula original y las etiquetas de la
   canción (WAV no admite carátula).
 - **Varios enlaces a la vez:** pégalos como quieras; si van pegados sin espacio, SUMP los separa solo.
+- **YouTube a ritmo seguro:** SUMP espacia las descargas de YouTube para no llegar a su límite, y si YouTube
+  pide una pausa, la descarga espera y sigue sola.
 
 ## Cuenta de X (opcional)
 

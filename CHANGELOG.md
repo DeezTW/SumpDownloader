@@ -1,5 +1,38 @@
 # Historial de cambios
 
+## [6.6.0] - 2026-10-05
+SUMP 6.6 se divide en dos espacios, Vídeos y Música, trae un buscador de YouTube Music, un convertidor de archivos y descargas de Bilibili.
+
+### 🎬🎵 Dos espacios: Vídeos y Música
+- **Vídeos y música ya no se mezclan:** cambia de espacio arriba en la barra lateral, o con `Ctrl + 1` y `Ctrl + 2`.
+- Cada espacio tiene sus estantes, su historial y su propia calidad de descarga: en Vídeos eliges la resolución y en Música el formato de audio.
+- **Música** tiene su propio color y sus vistas: **Canciones** (con carátula, artista, álbum y duración), **Álbumes**, **Artistas** y **Favoritas**.
+- Pulsa una canción y suena en la barra de abajo, que pasa sola a la siguiente. También puedes reproducir todo o en **aleatorio**.
+- Cada álbum se abre con su portada en grande.
+
+### 🔎 Buscador de YouTube Music
+- **Busca y descarga sin salir de SUMP:** canciones, álbumes enteros, playlists y artistas.
+- Las canciones se descargan con un clic y ves su progreso en el mismo botón; las que ya tienes aparecen marcadas.
+- Los álbumes y las playlists se abren para que elijas qué canciones quieres.
+- Cada artista tiene su página: canciones populares, álbumes y sencillos.
+- Todo se guarda con la carátula original y los datos de cada canción.
+
+### 🔄 Convertidor de archivos
+- **Convierte vídeos** a MP4, WebM, MKV, MOV, AVI o GIF, y elige si quieres 1080p, 720p o 480p.
+- **Saca el audio de un vídeo** o **cambia el formato de una canción**: MP3, M4A, Opus, OGG, FLAC o WAV, conservando la carátula y las etiquetas.
+- Ábrelo desde la barra lateral (Herramientas → Convertidor), con clic derecho en un archivo o con varios seleccionados. También puedes arrastrar archivos de cualquier carpeta.
+- El original nunca se toca: la copia convertida aparece a su lado.
+
+### 📺 Bilibili
+- Ahora puedes descargar vídeos de **bilibili.com** (también enlaces b23.tv y vídeos de varias partes).
+
+### ⏳ Descargas de YouTube que no se cortan
+- SUMP descarga de YouTube a un ritmo seguro, para no llegar al límite que pone YouTube cuando se descargan muchas canciones seguidas.
+- Si aun así YouTube pide una pausa, la descarga ya no falla: espera, te muestra cuánto falta y sigue sola.
+
+### ▶️ Reproductor
+- El botón de reproducir está centrado y tiene un aspecto nuevo.
+
 ## [6.5.1] - 2026-10-04
 Un selector de calidad nuevo, más claro y más moderno.
 
