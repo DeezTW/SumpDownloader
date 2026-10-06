@@ -105,4 +105,6 @@ Consulta el [historial de cambios](CHANGELOG.md).
 
 ## Licencia
 
-[MIT](LICENSE)
+SUMP es software propietario de Altavera Digital. Se licencia para uso personal según su
+[acuerdo de licencia de usuario final (EULA)](LICENSE): no se puede revender, sublicenciar,
+redistribuir ni modificar. Todos los derechos reservados.

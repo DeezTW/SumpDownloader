@@ -1,5 +1,22 @@
 # Historial de cambios
 
+## [6.7.0] - 2026-10-06
+Un panel de descargas nuevo, un convertidor que trabaja con tu biblioteca y el nuevo acuerdo de licencia de SUMP.
+
+### ⬇️ Panel de actividad
+- **Las descargas tienen su propio panel:** se abre con el botón de la barra (junto a «Descargar») y lo cierras cuando quieras; vuelve a abrirlo para ver cómo van.
+- Cada descarga muestra su miniatura, el sitio, el progreso, la velocidad y lo que falta, y una marca verde cuando termina.
+- El botón de la barra cuenta las descargas en curso y se llena con su progreso, aunque el panel esté cerrado.
+
+### 🔄 Convertidor con tu biblioteca
+- **Elige qué convertir sin salir de SUMP:** «Elegir de tu biblioteca» abre tus vídeos y tu música dentro del convertidor, con buscador y filtros de Vídeos y Música. Puedes elegir uno o varios a la vez.
+- **La conversión se ve en el mismo convertidor:** cada archivo con su barra y su porcentaje, y el progreso total abajo. Puedes ocultarlo mientras convierte y volver a abrirlo para seguirlo.
+- Al terminar, un botón te lleva a la carpeta del archivo convertido.
+
+### 📜 Acuerdo de licencia
+- SUMP pasa a tener un **acuerdo de licencia de usuario final (EULA)**: se licencia para uso personal y no se puede revender, sublicenciar ni redistribuir.
+- Lo verás una vez al abrir esta versión (o al instalarla) y siempre puedes leerlo en **Acerca de SUMP → Licencia**.
+
 ## [6.6.0] - 2026-10-05
 SUMP 6.6 se divide en dos espacios, Vídeos y Música, trae un buscador de YouTube Music, un convertidor de archivos y descargas de Bilibili.
 
