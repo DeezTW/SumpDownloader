@@ -1,5 +1,18 @@
 # Historial de cambios
 
+## [6.7.1] - 2026-10-06
+El atajo global vuelve a descargar los vídeos como vídeo, y ahora hay un segundo atajo para quedarte solo con el audio.
+
+### ⌨️ Atajos globales
+- **Alt + Shift + D descarga cada enlace en su formato:** los vídeos de X, YouTube, TikTok, Instagram, Facebook, Reddit y Bilibili se guardan como vídeo, en tu calidad de vídeo; las canciones de YouTube Music, como audio, en el formato de Música.
+- **Nuevo atajo de solo audio, Alt + Shift + A:** copia el enlace de cualquier vídeo y guarda solo su audio en Música.
+- Los dos atajos se cambian y se activan por separado en **Ajustes**; si otra aplicación ya usa uno, el otro sigue funcionando.
+- El menú de la bandeja también ofrece **descargar solo el audio del enlace copiado**.
+
+### 🛠️ Correcciones
+- El atajo, la bandeja y el portapapeles ya no descargan solo el audio cuando la calidad guardada era un formato de audio.
+- La calidad predeterminada de Ajustes muestra solo calidades de vídeo (el audio tiene su atajo y su espacio).
+
 ## [6.7.0] - 2026-10-06
 Un panel de descargas nuevo, un convertidor que trabaja con tu biblioteca y el nuevo acuerdo de licencia de SUMP.
 
