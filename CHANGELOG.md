@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## [6.9.1] - 2026-10-07
+Las novedades de cada versión ahora se leen en el sitio de SUMP.
+
+### 🛠️ Mejoras
+- **«Ver novedades» abre la página de novedades del sitio de SUMP**, directamente en la versión que tienes, en lugar de GitHub.
+- SUMP para Windows tiene su propia página en el sitio, con el vídeo de presentación y todo lo que puede hacer.
+
 ## [6.9.0] - 2026-10-07
 Spotify llega a SUMP: pega una canción, un álbum o una playlist y SUMP la descarga con su carátula y sus etiquetas.
 

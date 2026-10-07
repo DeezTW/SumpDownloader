@@ -124,7 +124,8 @@ elegir si borrar también tus ajustes; tus descargas nunca se borran.
 
 ## Novedades
 
-Consulta el [historial de cambios](CHANGELOG.md).
+Las novedades de cada versión están en [sump.altaveradigital.com/novedades](https://sump.altaveradigital.com/novedades),
+y SUMP para Windows tiene su página en [sump.altaveradigital.com/windows](https://sump.altaveradigital.com/windows).
 
 ## Licencia
 
