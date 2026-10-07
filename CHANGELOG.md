@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## [6.9.2] - 2026-10-07
+Correcciones para SUMP en Android (beta).
+
+### 📱 Android
+- **SUMP ya no se queda en «Preparando SUMP» la primera vez que lo abres:** la pregunta de dónde guardar tu biblioteca aparecía detrás de esa pantalla y no se podía responder.
+- Unir el vídeo con su audio y convertir archivos vuelven a funcionar: SUMP no encontraba FFmpeg.
+- **Nuevo icono y pantalla de inicio** con la marca de SUMP.
+
 ## [6.9.1] - 2026-10-07
 Las novedades de cada versión ahora se leen en el sitio de SUMP.
 
