@@ -5,7 +5,7 @@
 # SUMP
 
 Aplicación para Windows y Android que descarga vídeos, música e imágenes de X (Twitter), YouTube, YouTube Music, Instagram,
-Facebook, TikTok, Reddit y Bilibili, con reproductor integrado, buscador de música, convertidor de archivos y
+Facebook, TikTok, Reddit, Bilibili y Spotify, con reproductor integrado, buscador de música, convertidor de archivos y
 biblioteca de descargas.
 
 ## ⬇️ Descargar
@@ -50,7 +50,9 @@ Todas las versiones y sus novedades están en la sección
    elige **SUMP**: el enlace aparece en la barra, listo para descargar. También puedes pegarlo.
 
 Requiere Android 7.0 o posterior. Las descargas siguen aunque cambies de app o bloquees el teléfono, y SUMP
-se actualiza solo. En Android no hay inicio de sesión de X: los posts públicos se descargan igual.
+se actualiza solo. Los vídeos de X, Instagram, TikTok y Facebook se descargan a través del servidor de SUMP
+(como el atajo de iOS), así que el contenido sensible de X funciona sin conectar tu cuenta de X; YouTube,
+YouTube Music, Reddit y Bilibili se descargan en el propio teléfono.
 
 ## Vídeos y Música
 
@@ -62,6 +64,10 @@ descarga.
   *Favoritas*. Pulsa una canción para escucharla en la barra de abajo, o reproduce todo en aleatorio.
 - **Buscador de YouTube Music:** en *Música → Buscar* (o escribiendo en la barra de arriba) encuentras
   canciones, álbumes, playlists y artistas, y los descargas sin salir de SUMP.
+- **Spotify:** pega el enlace de una canción, un álbum o una playlist pública de Spotify. Eliges qué canciones
+  quieres y SUMP busca cada una en YouTube Music y la descarga con el título, los artistas, el álbum y la
+  carátula de Spotify (el audio de Spotify está protegido, así que no se descarga de ahí). Los álbumes llegan
+  completos; de las playlists se leen las primeras 100 canciones.
 
 ## Convertidor
 

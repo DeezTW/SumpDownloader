@@ -1,5 +1,20 @@
 # Historial de cambios
 
+## [6.9.0] - 2026-10-07
+Spotify llega a SUMP: pega una canción, un álbum o una playlist y SUMP la descarga con su carátula y sus etiquetas.
+
+### 🎧 Spotify
+- **Pega un enlace de Spotify** (canción, álbum o playlist, también los cortos de la app, `spotify.link`) en la barra o compártelo con SUMP en Android.
+- Los álbumes y las playlists se abren como los de YouTube Music: eliges las canciones, la carpeta y el formato de audio.
+- Cada canción se busca en **YouTube Music** por título, artista y duración, y se descarga desde ahí (el audio de Spotify está protegido).
+- Las canciones llevan el título y los artistas de Spotify, el álbum, el número de pista, el año y la carátula original.
+- Los álbumes llegan completos; de las playlists públicas se leen las primeras 100 canciones.
+
+### 📱 Android
+- **X, Instagram, TikTok y Facebook se descargan a través del servidor de SUMP**, como el atajo de iOS: el contenido sensible de X funciona sin conectar tu cuenta de X.
+- Si el servidor no puede con un enlace, el teléfono lo descarga por su cuenta.
+- YouTube, YouTube Music, Reddit y Bilibili siguen descargándose en el propio teléfono.
+
 ## [6.8.0] - 2026-10-07
 SUMP llega a Android: la misma app, con tu biblioteca, tu música y tus descargas, ahora también en el teléfono.
 
