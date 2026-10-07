@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## [6.9.4] - 2026-10-07
+En Android, tus descargas aparecen en la galería y en tus apps de música.
+
+### 📱 Android
+- **Tus vídeos y tu música aparecen en la galería** en cuanto llegan a la biblioteca, y desaparecen de ella si los borras, mueves o renombras en SUMP.
+- **Ajustes › Carpeta de descargas › Cambiar** te deja elegir entre **Descargas › SUMP** (la ven la galería y tus apps de música), otra carpeta o solo dentro de SUMP. Lo que ya tienes se mueve solo a la carpeta nueva.
+- Si tu biblioteca está en la carpeta interna de SUMP, Ajustes te avisa de que la galería no la ve y cómo cambiarla.
+- En los emuladores de PC, SUMP se actualiza a la versión para su procesador (x86_64), con la que FFmpeg funciona y se generan las miniaturas.
+
 ## [6.9.3] - 2026-10-07
 SUMP para Android (beta) se actualiza solo.
 
