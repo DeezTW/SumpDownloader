@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## [6.9.3] - 2026-10-07
+SUMP para Android (beta) se actualiza solo.
+
+### 📱 Android
+- **SUMP busca y encuentra sus actualizaciones** en todos los teléfonos y también en los emuladores de PC.
+- Al actualizar, si Android pide permiso para instalar, la actualización **sigue sola en cuanto vuelves** a SUMP.
+- Si la descarga termina mientras usas otra app, el instalador se abre al volver a SUMP.
+- Nuevo **SUMP-Android-x86_64.apk** para emuladores en el PC y Chromebooks.
+
 ## [6.9.2] - 2026-10-07
 Correcciones para SUMP en Android (beta).
 
