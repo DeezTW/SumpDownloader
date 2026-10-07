@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## [6.8.0] - 2026-10-07
+SUMP llega a Android: la misma app, con tu biblioteca, tu música y tus descargas, ahora también en el teléfono.
+
+### 📱 SUMP para Android
+- **Instálalo desde la página de descargas:** `SUMP-Android.apk` sirve para casi todos los teléfonos; `SUMP-Android-armv7.apk`, para los más antiguos de 32 bits.
+- **Compartir → SUMP:** en YouTube, X, Instagram, TikTok o el navegador, pulsa «Compartir» y elige SUMP; el enlace llega a la barra, listo para descargar.
+- **Lo mismo que en Windows:** calidades de 360p a 8K, el espacio de Música con su buscador de YouTube Music, el reproductor, el convertidor, los favoritos, las carpetas y las carpetas privadas cifradas.
+- **Sigue descargando aunque cambies de app** o bloquees el teléfono, con el progreso en la notificación.
+- Tus descargas se guardan en **Descargas/SUMP** y aparecen en la galería y en tus apps de música.
+- Se actualiza solo, como en Windows.
+- En Android no hay inicio de sesión de X: los posts públicos se descargan igual.
+
 ## [6.7.1] - 2026-10-06
 El atajo global vuelve a descargar los vídeos como vídeo, y ahora hay un segundo atajo para quedarte solo con el audio.
 

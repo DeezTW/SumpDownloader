@@ -4,13 +4,17 @@
 
 # SUMP
 
-Aplicación para Windows que descarga vídeos, música e imágenes de X (Twitter), YouTube, YouTube Music, Instagram,
+Aplicación para Windows y Android que descarga vídeos, música e imágenes de X (Twitter), YouTube, YouTube Music, Instagram,
 Facebook, TikTok, Reddit y Bilibili, con reproductor integrado, buscador de música, convertidor de archivos y
 biblioteca de descargas.
 
 ## ⬇️ Descargar
 
-**[Descargar el instalador de SUMP (última versión)](https://github.com/DeezTW/SumpDownloader/releases/latest/download/SUMP-Setup.exe)**
+**[Descargar el instalador de SUMP para Windows (última versión)](https://github.com/DeezTW/SumpDownloader/releases/latest/download/SUMP-Setup.exe)**
+
+**[Descargar SUMP para Android (última versión)](https://github.com/DeezTW/SumpDownloader/releases/latest/download/SUMP-Android.apk)**
+· para teléfonos antiguos de 32 bits:
+[SUMP-Android-armv7.apk](https://github.com/DeezTW/SumpDownloader/releases/latest/download/SUMP-Android-armv7.apk)
 
 Todas las versiones y sus novedades están en la sección
 [Releases](https://github.com/DeezTW/SumpDownloader/releases).
@@ -34,6 +38,19 @@ Todas las versiones y sus novedades están en la sección
 > **Aviso de Windows SmartScreen:** si aparece *"Windows protegió su PC"*, pulsa
 > **Más información → Ejecutar de todas formas**. Aparece porque el instalador no tiene
 > una firma digital de pago.
+
+## Android
+
+1. Abre `SUMP-Android.apk` en el teléfono. Si Android lo pide, permite instalar apps de este origen
+   (tu navegador o tu gestor de archivos) y pulsa **Instalar**.
+2. En el primer arranque, SUMP te pide acceso a tus archivos para guardar las descargas en
+   **Descargas/SUMP**, donde las ven la galería y tus apps de música. Si no se lo das, las guarda en su
+   propia carpeta.
+3. Para descargar desde otra app (YouTube, X, Instagram, TikTok, el navegador…), pulsa **Compartir** y
+   elige **SUMP**: el enlace aparece en la barra, listo para descargar. También puedes pegarlo.
+
+Requiere Android 7.0 o posterior. Las descargas siguen aunque cambies de app o bloquees el teléfono, y SUMP
+se actualiza solo. En Android no hay inicio de sesión de X: los posts públicos se descargan igual.
 
 ## Vídeos y Música
 
